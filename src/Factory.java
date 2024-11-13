@@ -71,7 +71,7 @@ public class Factory {
         System.out.println("" +
                 "");
         System.out.println("LARGE CARVING KIT");
-        Carving_Kits largecarvingkit = new Carving_Kits();
+        Carving_Kits largecarvingkit = new Carving_Kits(16, "10 years old and up", true);
         largecarvingkit.printInfotwo();
 
 
